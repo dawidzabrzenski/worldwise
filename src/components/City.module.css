@@ -45,3 +45,9 @@
   font-size: 1.6rem;
   color: var(--color-brand--1);
 }
+
+.emoji {
+  font-family: "Twemoji Country Flags", sans-serif;
+  font-size: 2.6rem;
+  line-height: 1;
+}
