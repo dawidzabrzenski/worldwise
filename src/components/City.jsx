@@ -1,9 +1,10 @@
 import { useParams, useSearchParams } from "react-router-dom";
 import styles from "./City.module.css";
-import { useCities } from "../../contexts/CitiesContext";
+import { useCities } from "../contexts/CitiesContext";
 import { useEffect } from "react";
 import { useContext } from "react";
 import Spinner from "./Spinner";
+import BackButton from "./BackButton";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -60,7 +61,9 @@ function City() {
         </a>
       </div>
 
-      <div>{/* <ButtonBack /> */}</div>
+      <div>
+        <BackButton />
+      </div>
     </div>
   );
 }
