@@ -21,6 +21,7 @@
 }
 
 .flag {
+  font-family: "Twemoji Country Flags", sans-serif;
   position: absolute;
   right: 1rem;
   top: 2.7rem;
