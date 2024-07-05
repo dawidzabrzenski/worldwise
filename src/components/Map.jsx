@@ -14,6 +14,7 @@ import {
 
 import styles from "./Map.module.css";
 import Button from "./Button";
+import GeolocationIcon from "./GeolocationIcon";
 
 function Map() {
   const { cities } = useCities();
@@ -49,6 +50,7 @@ function Map() {
           {isLoadingPosition ? "Loading..." : "Use your position"}
         </Button>
       )}
+
       <MapContainer
         center={mapPosition}
         zoom={6}
@@ -70,6 +72,18 @@ function Map() {
             </Popup>
           </Marker>
         ))}
+
+        {geolocationPosition && (
+          <Marker
+            position={[geolocationPosition.lat, geolocationPosition.lng]}
+            icon={GeolocationIcon()}
+          >
+            <Popup>
+              <span className={styles.emoji}>🏠</span>
+              <span>Your location</span>
+            </Popup>
+          </Marker>
+        )}
 
         <ChangeCenter position={mapPosition} />
         <DetectClick setGeo={setGeolocationPosition} />

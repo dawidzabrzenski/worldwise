@@ -37,52 +37,28 @@
       "id": 98443197
     },
     {
-      "cityName": "Valdepenas",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-07-04T12:46:02.215Z",
-      "notes": "",
+      "cityName": "Zabkowice Slaskie",
+      "country": "Poland",
+      "emoji": "🇵🇱",
+      "date": "2024-07-05T09:33:29.761Z",
+      "notes": "Home 🏠",
       "position": {
-        "lat": "38.72191862537978",
-        "lng": "-3.27392578125"
+        "lat": "50.59041805963604",
+        "lng": "16.806335449218754"
       },
       "id": 98443198
     },
     {
-      "cityName": "Albarracin",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-07-04T12:46:12.796Z",
+      "cityName": "Podluhy",
+      "country": "Czechia",
+      "emoji": "🇨🇿",
+      "date": "2024-07-05T10:05:23.708Z",
       "notes": "",
       "position": {
-        "lat": "40.29787132441319",
-        "lng": "-1.4282226562500002"
+        "lat": "49.768749476870994",
+        "lng": "13.908691406250002"
       },
       "id": 98443199
-    },
-    {
-      "cityName": "Lora del Rio",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-07-04T12:46:16.391Z",
-      "notes": "",
-      "position": {
-        "lat": "37.703759353770046",
-        "lng": "-5.51513671875"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Puente la Reina",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-07-04T12:46:21.168Z",
-      "notes": "",
-      "position": {
-        "lat": "42.683239078651354",
-        "lng": "-1.8237304687500002"
-      },
-      "id": 98443201
     }
   ]
 }

@@ -85,7 +85,6 @@ function Form() {
     };
 
     await createCity(newCity);
-    setCurrentCity("");
     navigate("/app");
   }
 
